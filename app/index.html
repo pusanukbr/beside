@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<title>Поряд</title>
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/heart.png" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/heart.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/heart.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/heart.png">
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+	<style>
+	body {
+		opacity: 0;
+		overflow-x: hidden;
+	}
+
+	html {
+		background-color: #fff;
+	}
+	</style>
+</head>
+
+<body>
+	<!--[if lte IE 9]>
+	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+	<!-- Preload -->
+	<div id="hellopreloader">
+		<div id="hellopreloader_preload"></div>
+	</div>
+	<!-- Preload -->
+	<!-- begin Header -->
+	<header id="main_header">
+		<div class="wrapper">
+			<div class="header_menu">
+				<div class="logo"><img src="img/logo.png" alt="logo" /></div>
+				<div class="search"><span><input type="text" placeholder="Назва проекту"/><i class="fa fa-search" aria-hidden="true"></i></span></div>
+				<div class="list_menu">
+					<ul>
+						<li><a href="#">Волонтерство</a></li>
+						<li><a href="#selection_of_projects">Підбір Проектів</a></li>
+						<li><a href="#state_of_projects">Стан Проектів</a></li>
+						<li><a href="#news_deals">Новини</a></li>
+					</ul>
+				</div>
+				<div class="heart"><i class="fa fa-heart" aria-hidden="true"></i><span> 2</span></div>
+				<div class="enter">
+					<div class="arrow" onselectstart="return false" onmousedown="return false">
+						<input type="checkbox" id="lang" />
+						<label for="lang">
+							<i class="fa fa-caret-left" aria-hidden="true"></i>
+							<span>УК</span>
+						</label>
+						<div class="lang_list">
+							<ul>
+								<li>УКР</li>
+								<li>РУС</li>
+								<li>ENG</li>
+							</ul>
+						</div>
+					</div>
+					<img src="img/enter.png" alt="enter" />
+					<p>Увійти</p>
+				</div>
+			</div>
+			<div class="siema_wra">
+				<div class="siema">
+					<div class="slide one">
+						<img src="img/slide_1.png" style="padding: 2.5% 14.5% 0 0;">
+					</div>
+					<div class="slide two">
+						<img src="img/bird.png" alt="bird" />
+						<img src="img/slide_2.png">
+					</div>
+				</div>
+				<div class="text">
+					<h1><span>Найбільша</span><span> в україні</span><span>біржа добра</span></h1>
+					<a href="#">допомогати просто</a>
+				</div>
+			</div>
+			<div class="swipe">
+				<p>Притулок для тварин</p><a href="#selection_of_projects"><i class="fa fa-angle-down" aria-hidden="true"></i></a></div>
+		</div>
+	</header>
+	<!-- end Header -->
+	<!-- begin volunteering -->
+	<section id="selection_of_projects">
+		<div class="wrapper">
+			<div class="text_vol">
+				<form class="controls">
+					<!-- We can add an unlimited number of "filter groups" using the following format: -->
+					<h4>Підбір допомоги</h4>
+					<fieldset>
+						<button class="Reset">Прибрати параметри пошуку</button>
+						<div class="checkbox">
+							<input type="checkbox" class="filter" checked />
+							<label>Фінансова</label>
+						</div>
+						<div class="checkbox">
+							<input type="checkbox" class="filter" />
+							<label>Матеріальна</label>
+						</div>
+						<div class="checkbox">
+							<input type="checkbox" class="filter" />
+							<label>Послуга</label>
+						</div>
+					</fieldset>
+					<div class="check_block" onselectstart="return false" onmousedown="return false">
+						<input type="checkbox" id="shelters" checked />
+						<label for="shelters">Притулки для тварин</label>
+						<input type="checkbox" id="education" />
+						<label for="education">Освіта</label>
+						<input type="checkbox" id="disabled_people" />
+						<label for="disabled_people">Інваліди</label>
+						<input type="checkbox" id="settlers" />
+						<label for="settlers">Переселенці зони АТО</label>
+						<input type="checkbox" id="military" />
+						<label for="military">Військові</label>
+						<input type="checkbox" id="elderly" />
+						<label for="elderly">Літні люди</label>
+						<input type="checkbox" id="children" />
+						<label for="children">Діти</label>
+					</div>
+					<div class="sort_wra">
+						<a href="#">Впорядкувати</a>
+						<i class="fa fa-angle-right" aria-hidden="true"></i>
+						<a href="#">Останні додаваня</a>
+					</div>
+					<h4>Притулки</h4>
+					<fieldset>
+						<button class="Reset">Показати всі позиції</button>
+						<div class="checkbox">
+							<input type="checkbox" checked />
+							<label>Амедия</label>
+						</div>
+						<div class="checkbox">
+							<input type="checkbox" checked />
+							<label>Сіріус</label>
+						</div>
+						<div class="checkbox">
+							<input type="checkbox" checked />
+							<label>Милосердя</label>
+						</div>
+						<div class="checkbox">
+							<input type="checkbox" />
+							<label>Громадська ініціалізація</label>
+						</div>
+						<div class="checkbox">
+							<input type="checkbox" />
+							<label>Хвости і лапи</label>
+						</div>
+						<div class="checkbox">
+							<input type="checkbox" />
+							<label>Пан коцький</label>
+						</div>
+						<div class="checkbox">
+							<input type="checkbox" />
+							<label>Звіринець</label>
+						</div>
+					</fieldset>
+				</form>
+				<div class="container">
+					<h4>Притулки для тварин</h4>
+					<div class="wra_item">
+						<div class="mix">
+							<img src="img/item/item_1.jpg" alt="item" />
+							<p>Збираємо кошти на харчування тварин Притулок Сіріус</p>
+							<div class="mix hidden">
+								<img src="img/item/item_1.jpg" alt="item" />
+								<p>Збираємо кошти на харчування тварин Притулок Сіріус</p>
+								<div class="additional_functions">
+									<div class="block">Info</div>
+									<i class="fa fa-heart" aria-hidden="true"></i>
+									<p>Сума необмежена</p>
+									<button>Допомогти</button>
+								</div>
+							</div>
+						</div>
+						<div class="mix">
+							<img src="img/item/item_2.jpg" alt="item" />
+							<p>Необхідно провести вакцинацію собак Притулок Сіріус</p>
+							<div class="mix hidden">
+								<img src="img/item/item_2.jpg" alt="item" />
+								<p>Збираємо кошти на харчування тварин Притулок Сіріус</p>
+								<div class="additional_functions">
+									<div class="block">Info</div>
+									<i class="fa fa-heart" aria-hidden="true"></i>
+									<p>Сума необмежена</p>
+									<button>Допомогти</button>
+								</div>
+							</div>
+						</div>
+						<div class="mix">
+							<img src="img/item/item_3.jpg" alt="item" />
+							<p>Потрібні кошти на лікування Шаріка Притулок Амеда</p>
+							<div class="mix hidden">
+								<img src="img/item/item_3.jpg" alt="item" />
+								<p>Збираємо кошти на харчування тварин Притулок Сіріус</p>
+								<div class="additional_functions">
+									<div class="block">Info</div>
+									<i class="fa fa-heart" aria-hidden="true"></i>
+									<p>Сума необмежена</p>
+									<button>Допомогти</button>
+								</div>
+							</div>
+						</div>
+						<div class="mix">
+							<img src="img/item/item_4.jpg" alt="item" />
+							<p>Допоможіть Мурчику на потез задньої лапи Притулок Милосердя</p>
+							<div class="mix hidden">
+								<img src="img/item/item_4.jpg" alt="item" />
+								<p>Збираємо кошти на харчування тварин Притулок Сіріус</p>
+								<div class="additional_functions">
+									<div class="block">Info</div>
+									<i class="fa fa-heart" aria-hidden="true"></i>
+									<p>Сума необмежена</p>
+									<button>Допомогти</button>
+								</div>
+							</div>
+						</div>
+						<div class="mix">
+							<img src="img/item/item_6.jpg" alt="item" />
+							<p>Збираємо кошти для благоустрою м. Київ Грамадська ініціатива</p>
+							<div class="mix hidden">
+								<img src="img/item/item_6.jpg" alt="item" />
+								<p>Збираємо кошти на харчування тварин Притулок Сіріус</p>
+								<div class="additional_functions">
+									<div class="block">Info</div>
+									<i class="fa fa-heart" aria-hidden="true"></i>
+									<p>Сума необмежена</p>
+									<button>Допомогти</button>
+								</div>
+							</div>
+						</div>
+						<div class="mix">
+							<img src="img/item/item_5.jpg" alt="item" />
+							<p>Збираємо на харчування собак Притулок Хвости і лапи</p>
+							<div class="mix hidden">
+								<img src="img/item/item_5.jpg" alt="item" />
+								<p>Збираємо кошти на харчування тварин Притулок Сіріус</p>
+								<div class="additional_functions">
+									<div class="block">Info</div>
+									<i class="fa fa-heart" aria-hidden="true"></i>
+									<p>Сума необмежена</p>
+									<button>Допомогти</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<img class="rectangle" src="img/rectangle.png" alt="rectangle" />
+					<h5>ПОКАЗАТИ БІЛЬШЕ ПОЗИЦІЙ</h4>
+					<div class="dots">
+						<ul>
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!-- end volunteering -->
+
+<!-- begin state_of_projects -->
+	<section id="state_of_projects">
+		<div class="wrapper">
+			<div class="projects">
+				<div class="block_one">
+					<div class="block_slide">
+						<div class="slick">
+							<div class="slide">
+								<img src="img/slide.jpg">
+								<img src="img/logo_slide.png" class="logo_slide" alt="logo_slide" />
+								<i class="fa fa-heart" aria-hidden="true"></i>
+							</div>
+							<div class="slide">
+								<img src="img/slide.jpg">
+								<img src="img/logo_slide.png" class="logo_slide" alt="logo_slide" />
+								<i class="fa fa-heart" aria-hidden="true"></i>
+							</div>
+						</div>
+						<p>сума необмежена</p>
+						<button class="button_slick">Допомогти</button>
+					</div>
+
+					<div class="block_text">
+						<h4>ЗБИРАЄМО КОШТИ НА ХАРЧУВАННЯ ТВАРИН #ДАЙ5!</h4>
+						<h3>Притулок Сіріус</h3>
+						<p>Що можна купити на 5 гривень? Більше, ніж ти думаєш – цілий
+						день ситого життя для одного безпритульного собаки!
+						Ми знову запускаємо естафету #ДАЙ5 і закликаємо всіх
+						підтримати понад дві тисячі вихованців найбільшого в Україні
+						притулку для тварин "Сіріус"</p>
+						<p>Поліпшити умови очікування справжнього дому просто:
+						перераховуй 5 або більше гривень на картку притулку<br>
+						Приватбанк<br>
+						<span>5169 3305 1043 1114,</span><br>
+						Мезінова О. В. (директора притулку)<br> 
+						або через сайт<br>
+						<a href="#">http://sheltersirius.org</a> і передай естафету друзям.</p>
+
+						<p>Також можна налаштувати регулярний платіж і годувати
+						хвостів на постійній основі. Як це зробити, дивись тут: <br><a href="#">нgoo.gl/cYzT3Y</a></p>
+					</div>
+				</div>
+				<div class="block_two">
+					<p><span>КОНТАКТИ </span>Притулок Сіріус</p>
+					<a href="tel:+380671234567">тел: 067 123 45 67</a>
+					<div class="icon_wra">
+						<a href="#"><img src="img/fb.png" alt="facebook" /></a>
+						<a href="#"><img src="img/vk.png" alt="Vkontakte" /></a>
+					</div>
+					<a href="http://www.dogcat.com.ua" target="_blank">www.dogcat.com.ua</a>
+					<button>НАПИСАТИ НАМ</button>
+					<p>Україна, Київська область,<br> село Федорівка</p>
+					<div id="map"></div>
+					<p>ПЕРЕГЛЯНУТИ ІНШІ ПРОЕКТИ ОРГАНІЗАЦІЇ</p>
+				</div>
+			</div>
+		</div>
+	</section>
+<!-- end state_of_projects -->
+
+<!-- begin news_deals-->
+	<section id="news_deals">
+		<div class="wrapper">
+			<div class="deals">
+				<h5>ВАС МОЖУТЬ ЗАЦІКАВИТИ</h5>
+					<div class="deals_images">
+						<div class="deals_item">
+							<img src="img/deals_item/items_1.jpg" alt="item" />
+							<p>Волонтерство вихідного дня</p>
+						</div>
+						<div class="deals_item">
+							<img src="img/deals_item/items_2.jpg" alt="item" />
+							<p>Чапік шукає даму серця</p>
+						</div>
+						<div class="deals_item">
+							<img src="img/deals_item/items_3.jpg" alt="item" />
+							<p>Нам потрібен старий посуд та підстилки</p>
+						</div>
+						<div class="deals_item">
+							<img src="img/deals_item/items_4.jpg" alt="item" />
+							<p>Я Інжир і мені потрібен дім на тиждень</p>
+						</div>
+						<div class="deals_item">
+							<img src="img/deals_item/items_5.jpg" alt="item" />
+							<p>Ми вже два місяці як готові дарувати Вам щастя</p>
+						</div>
+						<div class="deals_item">
+							<img src="img/deals_item/items_6.jpg" alt="item" />
+							<p>Шукаємо сторожа в притулок</p>
+						</div>
+					</div>
+				</div>
+			</div>
+	</section>
+	<!-- end news_deals-->
+	<!-- begin footer-->
+	<footer id="footer">
+		<div class="wrapper">
+			<div class="footer_wra">
+				<div class="block_form">
+					<h4>З ПИТАНЬ РОЗМІЩЕННЯ ПРОЕКТІВ ЗАПОВНІТЬ ФОРМУ</h4>
+					<form id="form_main" action="application.php" method="POST" name=" application ">
+						<button class="button_form" type="submit" form="form_main">ВІДПРАВИТИ </button>
+						<input name="name" type="name" maxlength="25" placeholder="Ім’я" required/>
+						<input name="name" type="name" maxlength="25" placeholder="Прізвище" required/>
+						<input name="email" type="email" maxlength="20" placeholder="E-mail" required />
+						<textarea name="text" placeholder="Текст"></textarea>
+					</form>
+					<h5>Всі поля заповняти обов’язково</h5>
+				</div>
+				<div class="block_info">
+					<h4>Телефон</h4>
+					<a href="tel:+380634567890">063 456 78 90</a>
+					<p>E-mail</p>
+					<a href="mailto:info@porjad.gmail.com">info@porjad.gmail.com</a>
+					<p>Підпишіться і отримуйте новини про нові проекти та активність у вашому кабінеті</p>
+					<form action="#" method="post">
+						<input type="email" placeholder="E-mail" />
+						<button>ПІДПИСАТИСЯ</button>
+					</form>
+				</div>
+				<div class="block_contact">
+					<h4>ПРИЄДНУЙТЕСЬ ДО НАС УСОЦІАЛЬНИХ МЕРЕЖАХ</h4>
+					<a href="#"><img src="img/fb.png" alt="facebook" />facebook</a>
+					<a href="#"><img src="img/vk.png" alt="vkontakte" />vkontakte</a>
+					<a href="#"><img src="img/google_plus.png" alt="google plus" />google+</a>
+					<a href="#"><img src="img/instagram.png" alt="instagram" />instagram</a>
+					<img src="img/logo.png" alt="logo footer" class="logo_footer" />
+					<p><span>&#169;</span><span id="data"></span> Соціальні проекти ‘ПОРЯД’. Всі права захищено.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- end footer-->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/main.min.css">
+	<link rel="stylesheet" href="css/slick.css" />
+	<link rel="stylesheet" href="css/slick-theme.css" />
+	<link rel="stylesheet" href="css/main.min.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCusJU1YUZXUZEaMwJww32UtMwfAVZh2So&callback=initMap" async defer></script>
+	<script src="js/jquery.mixitup.js"></script>
+	<script src="js/common.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+</body>
+
+</html>
