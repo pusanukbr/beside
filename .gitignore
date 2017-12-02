@@ -4,5 +4,5 @@
 /**/*.psd
 /**/Thumbs.db
 /**/*.DS_Store
-/**/.sublime-gulp-tmp.js
-/**/.sublime-gulp.cache
+/.sublime-gulp-tmp.js
+/.sublime-gulp.cache
