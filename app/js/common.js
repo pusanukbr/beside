@@ -1,22 +1,12 @@
 $(document).ready(function() {
-	// Window height
-	function heightDetect() {
-		$("#main_header").css("min-height", $(window).height() + 100);
-	};
-	heightDetect();
-	$(window).resize(function() {
-		heightDetect();
-	});
-
-
 
 	// Slick================
 
 	// Иниализация слайдера header
 	$('.siema').slick({
 		fade: true,
-		autoplay: true,
-		autoplaySpeed: 5000,
+		// autoplay: true,
+		// autoplaySpeed: 5000,
 		speed: 300,
 		draggable: false
 

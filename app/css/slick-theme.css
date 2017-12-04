@@ -39,10 +39,9 @@
 .slick-next:before
 {
     font-family: 'slick';
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1;
 
-    opacity: .75;
     color: white;
 
     -webkit-font-smoothing: antialiased;
@@ -84,6 +83,19 @@
 {
     content: 'Next';
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Dots */
 .slick-dotted.slick-slider
